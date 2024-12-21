@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="calculator">
+        <h1>JS Calculator</h1>
+
+        <form id="calculatorForm">
+            <label for="number1">Number 1</label><br>
+            <input type="number" id="number1" required><br><br>
+
+            <label for="number2">Number 2</label><br>
+            <input type="number" id="number2" required><br><br>
+
+            <label for="operate">Operate way?</label><br>
+            <select id="operate" name="operate" onchange="updateButtonText()">
+                <option value="+">+</option>
+                <option value="-">-</option>
+                <option value="*">*</option>
+                <option value="/">/</option>
+            </select><br><br>
+
+            <button type="button" id="submit" onclick="submitCalculation()">Add</button>
+        </form>
+
+        <h2 id="result">Result = None</h2>
+    </div>
+
+    <script src="index.js" charset="utf-8"></script>
+</body>
+</html>
+

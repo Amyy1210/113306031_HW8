@@ -1,0 +1,31 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    text-align: center;
+}
+
+label {
+    font-weight: bold;
+}
+
+input[type="number"], select {
+    width: 200px; 
+    padding: 5px;
+    margin: 5px 0;
+    text-align: center;
+}
+
+button {
+    width: 200px;
+    padding: 10px 20px;
+    background-color: #E6E6FA;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #D8BFD8;
+}
+
+
